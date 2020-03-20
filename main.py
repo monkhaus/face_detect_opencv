@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('opencv-master/data/haarcascades/haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('opencv-master/data/haarcascades/haarcascade_eye.xml')
 # image
-img = cv2.imread('resources/myface.jpg')
+img = cv2.imread('resources/face2.jpg')
 # grayscale image
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
